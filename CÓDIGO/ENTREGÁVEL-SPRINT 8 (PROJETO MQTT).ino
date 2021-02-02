@@ -1,8 +1,8 @@
 /*
 Nome do desenvolvedor: Lucas Cabral
 Versão: 0.1
-Data de criação: 02/01/2021
-Última manutenção: 03/01/2021
+Data de criação: 02/02/2021
+Última manutenção: 03/02/2021
 
 Objetivo desse projeto: utilizar o Arduino Uno juntamente com um Sensor Magnético para o monitoramento da porta de um Rack de rede, fazendo 
 a seguinte verificação: RACK ABERTO ou RACK FECHADO. Após esta análise, a informação será enviada via internet utilizando o protocolo MQTT 
