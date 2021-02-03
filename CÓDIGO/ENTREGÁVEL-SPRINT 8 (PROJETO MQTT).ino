@@ -38,7 +38,7 @@ void setup() {
     Serial.begin (9600);
 
     //Define o IP e Porta TCP do Broker MQTT que vamos utilizar
-    mqttClient.setServer("",);
+    mqttClient.setServer("54.144.190.205",1883);
 
     //Exibe no Monitor Serial as informações sobre o IP do Arduino
     Serial.print ("O IP do arduino e:");
@@ -68,7 +68,7 @@ void loop() {
   mqttClient.connect("lucascabral");
 
   //Variável que envia a mensagem e armazena o valor de '1' (caso a mensagem seja enviada com sucesso) e '0' (caso o envio falhe)
-  mensagem = mqttClient.publish("sensor_magnetico, LIGADO");
+  mensagem = mqttClient.publish("lucascabral-t", "FUNCIONOU!");
 
   //Verificar a conexão entre o Cliente e o Broker
   mqttClient.loop();
