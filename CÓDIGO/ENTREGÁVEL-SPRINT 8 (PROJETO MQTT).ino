@@ -64,7 +64,7 @@ void setup() {
 void loop() {
     
   //Define o nome do cliente MQTT e efetua a conexão com o servidor
-  mqttClient.connect ("lucaselvis");
+  mqttClient.connect ("lucascabral");
   
   //Exibe a váriavel mensagem no Monitor Serial
   Serial.println (mensagem);
@@ -78,14 +78,14 @@ void loop() {
   // Verifica se o estado da chave está em 1
   if (estado_sensor == 1) {
     Serial.println("RACK ABERTO");
-    mensagem = mqttClient.publish ("lucaselvis-s","ABERTO!");
+    mensagem = mqttClient.publish ("lucascabral-m","ABERTO!");
     
   }          
 
   // Verifica se o estado da chave é diferente de 1 ou seja 0
     if (estado_sensor == 0) {
     Serial.println ("RACK FECHADO");
-    mensagem = mqttClient.publish ("lucaselvis-s","FECHADO!");
+    mensagem = mqttClient.publish ("lucascabral-m","FECHADO!");
     
   }
   
