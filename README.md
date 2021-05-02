@@ -26,8 +26,9 @@ Bibliotecas utilizadas:
 ## Circuito
 ![circuito](https://camo.githubusercontent.com/ad1da211b35b60b23fb095a64e76dc6504d0c3229e853bd82a69a4d5d27bbb88/68747470733a2f2f692e696d6775722e636f6d2f594947477453472e706e67)
 
-###### Autor: Lucas Cabral
-###### Contato 
-```cpp
-Gmail - lucascmc23@gmail.com
-Outlook - lucascmc23@outlook.com
+[![Linkedin Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:lucascabralmendes.correa@gmail.com)](mailto:lucascabralmendes.correa@gmail.com)
+
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-cabral-42121b206/)](https://www.linkedin.com/in/lucas-cabral-42121b206/)
+
+
+![AUTOR](https://img.shields.io/badge/AUTOR-Lucas%20Cabral-important) 
