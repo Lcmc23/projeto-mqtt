@@ -3,7 +3,10 @@
 ## Objetivo
 O objetivo desse projeto é utilizar o Arduino Uno juntamente com um Sensor Magnético para o monitoramento da porta de um Rack de rede, fazendo a seguinte verificação: **RACK ABERTO** ou **RACK FECHADO**. Após esta análise, a informação será enviada via internet utilizando o protocolo MQTT (_Message Queuing Telemetry Transport_) para um servidor MQTT hospedado na _Amazon Web Service_ (AWS) e assim, exibida em um cliente MQTT.
 
-![exemplo](https://camo.githubusercontent.com/7beef2d4780d87a603d7de49b2da0467c8537dff96575b628a04bd4010ebb1cc/68747470733a2f2f692e696d6775722e636f6d2f4d576870586b562e706e67)
+<h1>
+    <h1 align="center">
+    <img src="https://i.ibb.co/yhcL9y8/img1.png">
+</h1>
 
 Aplicativo onde as informações serão exibidas:
 
@@ -24,7 +27,11 @@ Bibliotecas utilizadas:
 * Jumpers.
 
 ## Circuito
-![circuito](https://camo.githubusercontent.com/ad1da211b35b60b23fb095a64e76dc6504d0c3229e853bd82a69a4d5d27bbb88/68747470733a2f2f692e696d6775722e636f6d2f594947477453472e706e67)
+  
+<h1>
+    <h1 align="center">
+    <img src="https://i.ibb.co/7RrjXhk/img2.png">
+</h1>
 
 [![Linkedin Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:lucascabralmendes.correa@gmail.com)](mailto:lucascabralmendes.correa@gmail.com)
 
